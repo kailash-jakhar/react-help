@@ -7,6 +7,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kailash-jakhar/react-help.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/kailash-jakhar"
   },
@@ -15,6 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
+  "homepage": "https://github.com/kailash-jakhar/react-help",
   "author": "Kailash Jakhar",
   "license": "MIT",
   "devDependencies": {
@@ -26,5 +31,8 @@
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@kailash-jakhar/react-help": "^0.0.1"
   }
 }
