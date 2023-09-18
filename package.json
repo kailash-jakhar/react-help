@@ -29,7 +29,5 @@
     "rollup-plugin-dts": "^6.0.2",
     "typescript": "^5.2.2"
   },
-  "dependencies": {
-    "@kailash-jakhar/react-help": "^0.0.4"
-  }
+  
 }
