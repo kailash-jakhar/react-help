@@ -1,5 +1,5 @@
 {
-  "name": "@kailash-jakhar/react-help",
+  "name": "kailash-jakhar/react-help",
   "version": "0.0.3",
   "description": "A react component library",
   "main": "dist/cjs/index.js",
