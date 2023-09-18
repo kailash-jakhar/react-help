@@ -1,7 +1,11 @@
 name: Publish package to GitHub Packages
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
+# on:
+#   release:
+#     types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +16,7 @@ jobs:
         with:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
+          scope: "@kailash-jakhar"
       - run: npm ci
       - run: npm publish --access public
         env:
