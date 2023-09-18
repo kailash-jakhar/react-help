@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
-          scope: "@kailash-jakhar"
       - run: npm ci
       - run: npm publish --access public
         env:
