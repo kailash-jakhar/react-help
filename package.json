@@ -1,5 +1,5 @@
 {
-  "name": "@kailash-jakhar/react-help",
+  "name": "react-help",
   "version": "0.0.3",
   "description": "A react component library",
   "main": "dist/cjs/index.js",
@@ -10,10 +10,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kailash-jakhar/react-help.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "public"
   },
   "types": "dist/index.d.ts",
   "scripts": {
