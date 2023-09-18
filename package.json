@@ -12,7 +12,7 @@
     "url": "https://github.com/kailash-jakhar/react-help.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kailash-jakhar"
+    "registry": "https://npm.pkg.github.com/@kailash-jakhar"
   },
   "types": "dist/index.d.ts",
   "scripts": {
